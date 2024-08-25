@@ -1,4 +1,3 @@
-import { Header } from "../components/Header"
 import bannerImg from "../assets/banner.png"
 import { ItemBuyCard } from "../components/itemBuyCard"
 
@@ -6,7 +5,6 @@ export function BuyersPage() {
 
     return (
         <div>  
-            <Header/>
             <div>
                     <div className={`sticky top-20 m-3  w-96 bg-white flex justify-evenly py-4  rounded-2xl mx-auto text-xl shadow-lg`}>
                         <span className="font-bold cursor-pointer">Vegetables</span>
@@ -16,7 +14,7 @@ export function BuyersPage() {
 
                 <div className="w-1200 mx-auto" >
                     <div className="flex">
-                        <div className="w-64 h-96 bg-white sticky top-52 rounded-3xl pl-9">
+                        <div className="w-64 h-96 bg-white sticky top-40 rounded-3xl pl-9">
                             <ul className="border-box flex flex-col text-xl">
                                 <li className="py-2 font-bold cursor-pointer">All</li>
                                 <li className="py-2 text-slate-600 font-medium cursor-pointer">Indian Vegetables</li>
