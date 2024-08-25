@@ -1,6 +1,6 @@
 import { AuthPage } from "./pages/AuthPage"
-import { BuyersPage } from "./pages/BuyersPage"
-import { Header } from "./components/Header.jsx"
+import  BuyersPage  from "./pages/BuyersPage"
+import  Header  from "./components/Header.jsx"
 
 function App() {
  

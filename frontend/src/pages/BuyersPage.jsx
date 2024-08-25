@@ -1,7 +1,7 @@
 import bannerImg from "../assets/banner.png"
 import { ItemBuyCard } from "../components/itemBuyCard"
 
-export function BuyersPage() {
+export default function BuyersPage() {
 
     return (
         <div>  

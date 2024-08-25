@@ -10,7 +10,7 @@ import locationIconGreen from "../assets/locationIconGreen.png";
 import maleProfileImg from "../assets/profileMale.png";
 import locationIcon from "../assets/locationIcon.png";
 
-export function Header() {
+export default function Header() {
   const location = useRecoilValue(locationAtom);
   const [showLocations, setShowLocations] = useRecoilState(showLocationsAtom);
 
