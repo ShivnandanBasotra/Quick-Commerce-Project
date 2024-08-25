@@ -1,3 +1,5 @@
+import { MdHeight } from 'react-icons/md'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,7 +11,10 @@ export default {
       width: {
         '1200': '1200px',
         '70': '70'
-      },
+      }, 
+      height:{
+        '800': '800px',
+      }  
     },
     plugins: [],
   }
