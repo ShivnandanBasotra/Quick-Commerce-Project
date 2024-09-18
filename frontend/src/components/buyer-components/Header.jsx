@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="bg-blue-200 sm:bg-red-100 md:bg-green-100 lg:bg-yellow-100 xl:bg-violet-100 flex flex-col sm:flex-row sm:h-auto md:h-auto lg:h-24 justify-between bg-white p-2 sm:p-3 md:p-4 rounded-b-xl sm:rounded-b-2xl md:rounded-b-3xl items-center sticky top-0 z-10 shadow-md">
+      <div className=" flex flex-col sm:flex-row sm:h-auto md:h-auto lg:h-24 justify-between bg-white p-2 sm:p-3 md:p-4 rounded-b-xl sm:rounded-b-2xl md:rounded-b-3xl items-center sticky top-0 z-10 shadow-md">
         <div className="hidden sm:flex flex-col sm:flex-row items-center sm:items-start md:items-center relative w-full sm:w-auto mb-2 sm:mb-0">
           <div onClick={()=>{navigate('/')}} className="text-xl sm:text-2xl md:text-3xl font-bold cursor-pointer mb-2 sm:mb-0 flex items-center">
             <span>Sabzi</span>
