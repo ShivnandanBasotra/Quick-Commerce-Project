@@ -1,10 +1,11 @@
-import { LoginCard } from "../components/LoginCard";
-import { SignupCard } from "../components/SignupCard";
+import { useRecoilValue } from "recoil";
+import LoginCard  from "../components/buyer-components/LoginCard";
+import  SignupCard  from "../components/buyer-components/SignupCard";
+import userOnSignup from "../atoms/authPageAtom";
 
-export function AuthPage (){
-
+export default function AuthPage (){
+    const isOnSignupPage = useRecoilValue(userOnSignup);
     return(
-    <LoginCard/>
-    // <SignupCard/>
+    isOnSignupPage? <SignupCard/>:<LoginCard/> 
     )
 }

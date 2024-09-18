@@ -7,3 +7,27 @@
       @apply box-border;
     } 
 }
+
+
+.notifications-dashboard {
+  right: -100%;
+  background-color: white; 
+  transition: right 1s ease-in-out;
+}
+
+/* When the notification bar is visible */
+.notifications-dashboard.show {
+  right: 0;
+}
+
+/* Hide spinner buttons */
+.hide-spinner::-webkit-inner-spin-button,
+.hide-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.hide-spinner {
+    -moz-appearance: textfield; /* Firefox */
+}
+
