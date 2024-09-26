@@ -18,7 +18,7 @@ const ProfilePage = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700">Username</label>
+              <label className="block text-sm font-medium text-gray-700">Full Name</label>
               <input type="text" className="mt-1 p-2 block w-full border rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-green-500" />
             </div>
 
